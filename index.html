@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css"> <!-- Menghubungkan file CSS eksternal -->
+        <title>Mini-Project_RevoU</title>
+    </head>
+    <body>
+    <div>
+        <div id="slider">
+            <div id="slides">
+                <div class="slide"><img src="../images/placeholder1.png" alt="placeholder1"/></div>
+                <div class="slide"><img src="../images/placeholder2.png" alt="placeholder2"/></div>
+                <div class="slide"><img src="../images/placeholder3.png" alt="placeholder3"/></div>
+            </div>
+        </div>
+    </div>
+    <div class="responsive">
+        <!-- Container untuk navbar -->
+        <nav class="navbar">
+            <!-- Daftar tak-terurut untuk item navigasi -->
+            <ul class="navbar-list">
+                <!-- Tautan untuk halaman "Home" -->
+                <li class="navbar-item"><a href="#">Home</a></li>
+                <li class="navbar-item"><a href="#">Our Package</a></li>
+                <li class="navbar-item"><a href="#">Call Us</a></li>
+            </ul>
+            <form>
+                <input type="text" id="search" name="search" placeholder="Search..">
+            </form>
+        </nav>
+        <h1 class="h1">Top Rated E-Groceries Shop in</h1>
+        <h1 class="h1">Indonesian</h1>
+        <h3 class="h3">Every Day with best Ingredients</h3>
+
+        <div id="name">
+            <input id="input-name" name="name" type="text" required
+            placeholder="Silahkan masukkan nama anda" />
+            <p id="name-error" class="error-message"></p>
+        </div>
+        <div class="email">
+            <input id="input-email" name="email" type="text"
+            required="true" placeholder="Silahkan masukkan email yang benar"/>
+            <p id="email-error" class="error-message"></p>
+        </div>
+        <div class="notlp">
+            <input id="input-notlp" name="notlp" type="text"
+            required="true" placeholder="Silahkan masukkan Nomor Telepon Anda"/>
+            <p id="notlp-error" class="error-message"></p>
+        </div>
+        <div class="row">
+        <input type="tombol-kirim" id="tombol-kirim" value="Kirim">
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+    </body>
+    <footer margin="center">Copyrights © 2024</footer>
+</html>
